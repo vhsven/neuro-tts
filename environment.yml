@@ -1,0 +1,9 @@
+name: openai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pydantic
+  - pip:
+      - openai==1.76.0
+      - python-dotenv==1.1.0
